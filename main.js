@@ -2,7 +2,7 @@ let heightMap, colorMap, finalScreen
 let shadowShader
 
 function preload() {
-	shadowShader = loadShader("/web_shaders/vert_shader.glsl", "/web_shaders/frag_shader.glsl")
+	shadowShader = loadShader("web_shaders/vert_shader.glsl", "web_shaders/frag_shader.glsl")
 }
 
 function setup() {
