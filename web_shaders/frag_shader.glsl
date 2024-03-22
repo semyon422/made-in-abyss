@@ -20,7 +20,7 @@ void main() {
 
 	vec3 sunDir = sunPos - vec3(0.5, 0.5, sunPos.z - 1.0);
 	// vec3 sunDir = sunPos - p;
-	vec3 stepDir = sunDir / STEPS;
+	vec3 stepDir = sunDir / float(STEPS);
 
 	float inShadow = 0.;
 	for (int i = 0; i < STEPS; i++) {
